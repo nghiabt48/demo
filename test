@@ -1,0 +1,14 @@
+public class test {
+    public static void main(String[] args) {
+        int so = 0, dem = 0;
+        while (so < 1000)
+        {
+            if (so % 3 == 0 && so % 7 == 0)
+            {
+                dem += so;
+            }
+            so++;
+        }
+        System.out.println(dem);
+    }
+}
